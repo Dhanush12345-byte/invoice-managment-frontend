@@ -33,7 +33,7 @@ const Loginpage = () => {
       password: passwordValue,
     };
     try {
-      const response = await fetch("https://invoice-managment-backend.onrender.com/signup", {
+      const response = await fetch("https://invoice-managment-backend-1.onrender.com/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -56,7 +56,7 @@ const Loginpage = () => {
       password: passwordValue,
     };
     try {
-      const response = await fetch("https://invoice-managment-backend.onrender.com/signin", {
+      const response = await fetch("https://invoice-managment-backend-1.onrender.com/signin", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
