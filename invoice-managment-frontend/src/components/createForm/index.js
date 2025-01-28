@@ -39,7 +39,7 @@ const FormCreate = () => {
       amountStatus: amountStatus,
     };
     try {
-      const response = await fetch("https://invoice-managment-backend.onrender.com/formSubmit", {
+      const response = await fetch("https://invoice-managment-backend-1.onrender.com/formSubmit", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
