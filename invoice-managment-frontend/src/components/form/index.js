@@ -32,7 +32,7 @@ const Invoice = () => {
       id: mofifyData,
     };
     try {
-      const response = await fetch("https://invoice-managment-backend.onrender.com/updatedata", {
+      const response = await fetch("https://invoice-managment-backend-1.onrender.com/updatedata", {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -59,7 +59,7 @@ const Invoice = () => {
     const fetchingDetails = async () => {
       try {
         const response = await fetch(
-          "https://invoice-managment-backend.onrender.com/fetching-details"
+          "https://invoice-managment-backend-1.onrender.com/fetching-details"
         );
         if (response.ok) {
           const result = await response.json();
